@@ -2,7 +2,8 @@ angular.module('video-player')
   .component('videoList', {
     // TODO
     bindings: {
-      exampleData: '<'
+      exampleData: '<',
+      clicker: '<'
     },
 
     templateUrl: 'src/templates/videoList.html'
